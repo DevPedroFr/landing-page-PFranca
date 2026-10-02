@@ -7,17 +7,15 @@
 <meta name="description" content="A PFrança constrói a estrutura digital da sua empresa: presença online, sistemas internos, aplicativos e agentes de IA integrados ao negócio.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
-<div class="pinline" aria-hidden="true"></div>
-
 <nav id="nav">
   <div class="wrap navrow">
-    <div class="brand">PFrança<span class="dot-brand"></span></div>
+    <div class="brand"><span class="pf-mark">PF</span>PFrança</div>
     <div class="navlinks">
       <a href="#produtos">Produtos</a>
       <a href="#como-funciona">Método</a>
@@ -31,7 +29,6 @@
 
 <!-- HERO -->
 <header class="hero">
-  <div class="sunburst" aria-hidden="true"></div>
   <div class="wrap hero-grid">
     <div class="reveal-stagger">
       <div class="eyebrow gold">Est. por Pedro França</div>
@@ -44,11 +41,29 @@
     </div>
     <div class="hero-panel reveal-stagger">
       <div class="panel-label">O ECOSSISTEMA</div>
-      <div class="flowline">
-        <div class="flownode" style="--c:var(--web)"><span class="num">01</span>PFrança Web <small>Presença &amp; Aquisição</small></div>
-        <div class="flownode" style="--c:var(--ai)"><span class="num">02</span>PFrança AI <small>Atendimento &amp; Ações</small></div>
-        <div class="flownode" style="--c:var(--os)"><span class="num">03</span>PFrança OS <small>Operação &amp; Gestão</small></div>
-        <div class="flownode" style="--c:var(--app)"><span class="num">04</span>PFrança App <small>Experiência do Cliente</small></div>
+      <div class="hub">
+        <svg class="hub-lines" viewBox="0 0 320 320" aria-hidden="true">
+          <circle cx="160" cy="160" r="118" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="3 7"/>
+          <line x1="160" y1="160" x2="62" y2="62"/><line x1="160" y1="160" x2="258" y2="62"/>
+          <line x1="160" y1="160" x2="62" y2="258"/><line x1="160" y1="160" x2="258" y2="258"/>
+        </svg>
+        <div class="hub-center">PF</div>
+        <div class="hub-node" style="--c:var(--web); top:0; left:0;">
+          <span class="hub-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg></span>
+          <div><strong>PFrança Web</strong><small>Presença &amp; Aquisição</small></div>
+        </div>
+        <div class="hub-node" style="--c:var(--ai); top:0; right:0;">
+          <span class="hub-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4A8.5 8.5 0 1 1 16.9 5l4.1-1 -1 4.1a8.4 8.4 0 0 1 1 3.4z"/></svg></span>
+          <div><strong>PFrança AI</strong><small>Atendimento &amp; Ações</small></div>
+        </div>
+        <div class="hub-node" style="--c:var(--os); bottom:0; left:0;">
+          <span class="hub-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M8.5 7.5 15.5 16.5"/><circle cx="18" cy="6" r="3"/><path d="M15.5 7.5 8.8 16"/></svg></span>
+          <div><strong>PFrança OS</strong><small>Operação &amp; Gestão</small></div>
+        </div>
+        <div class="hub-node" style="--c:var(--app); bottom:0; right:0;">
+          <span class="hub-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+          <div><strong>PFrança App</strong><small>Experiência do Cliente</small></div>
+        </div>
       </div>
     </div>
   </div>
@@ -86,6 +101,7 @@
     </div>
     <div class="prod-grid reveal">
       <article class="prodcard" style="--c:var(--web)">
+        <span class="icon-badge" style="--c:var(--web)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg></span>
         <span class="chip">Presença &amp; Aquisição</span>
         <h3>Sua empresa começa aqui.</h3>
         <p>É a porta de entrada digital do seu negócio: onde clientes descobrem sua empresa, entendem o que você oferece e tomam uma ação. Site institucional, catálogo, formulários, agendamento e área do cliente — integrados aos demais produtos.</p>
@@ -93,6 +109,7 @@
         <a href="#" class="link-arrow">Conhecer o PFrança Web</a>
       </article>
       <article class="prodcard" style="--c:var(--os)">
+        <span class="icon-badge" style="--c:var(--os)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M8.5 7.5 15.5 16.5"/><circle cx="18" cy="6" r="3"/><path d="M15.5 7.5 8.8 16"/></svg></span>
         <span class="chip">Operação &amp; Gestão</span>
         <h3>O sistema que faz sua empresa funcionar.</h3>
         <p>Cada negócio tem uma operação diferente. O PFrança OS organiza clientes, vendas, pedidos, agenda, estoque, tarefas e indicadores em um sistema modular, construído para a sua realidade.</p>
@@ -100,6 +117,7 @@
         <a href="#" class="link-arrow">Conhecer o PFrança OS</a>
       </article>
       <article class="prodcard" style="--c:var(--app)">
+        <span class="icon-badge" style="--c:var(--app)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
         <span class="chip">Experiência do Cliente</span>
         <h3>Leve sua empresa para o bolso do seu cliente.</h3>
         <p>Quando seus clientes precisam fazer algo pelo celular com frequência, sua empresa pode ter um canal próprio: pedidos, agendamentos, acompanhamento, notificações e fidelidade.</p>
@@ -107,6 +125,7 @@
         <a href="#" class="link-arrow">Conhecer o PFrança App</a>
       </article>
       <article class="prodcard" style="--c:var(--ai)">
+        <span class="icon-badge" style="--c:var(--ai)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4A8.5 8.5 0 1 1 16.9 5l4.1-1 -1 4.1a8.4 8.4 0 0 1 1 3.4z"/></svg></span>
         <span class="chip">Atendimento &amp; Ações</span>
         <h3>IA que não apenas responde. Ela age.</h3>
         <p>Agentes de IA que entendem solicitações, consultam informações, executam tarefas e encaminham situações para uma pessoa quando necessário — via WhatsApp, Instagram e outros canais.</p>
@@ -231,7 +250,6 @@
 
 <!-- CTA FINAL -->
 <section id="contato" class="cta-final">
-  <div class="sunburst small" aria-hidden="true"></div>
   <div class="wrap reveal" style="text-align:center;">
     <div class="eyebrow gold" style="justify-content:center;display:flex;">Vamos começar</div>
     <h2 class="on-navy">Sua empresa já tem um negócio.<br>Agora precisa de uma estrutura para ele.</h2>
